@@ -6,7 +6,7 @@ fun main() {
 
     val map2 = mapOf(
         "Dênis" to 2500.0,
-        "Patricia" to 3500.0
+        "Patricia" to 3500.0 //'to' é um recurso conhecido como infix
     )
     map2.forEach {(key, value) -> println("Key: $key\nValue: %.2f\n".format(value))}
 }
